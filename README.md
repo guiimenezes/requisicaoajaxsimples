@@ -48,7 +48,7 @@ Porém para pegarmos o que vem do banco de dados, precisamos importar a model qu
 <pre>from .model import *</pre>
 <strong>Note, que onde está o símbolo de asterisco "*", poderíamos adicionar qualquer classe criada dentro do modelo, basta adicionar o nome da classe que desejar.</strong>
 
-Após adicionarmos a importação do banco, poderemos chamar o objeto antes de do return.
+Após adicionarmos a importação do banco, poderemos chamar o objeto antes do return.
 
 <pre>suavariavel = nomeModelo.objects.filter(coluna=nome)</pre>
 
