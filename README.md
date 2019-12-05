@@ -67,5 +67,6 @@ o segundo caminho adicionado é o da requisição, onde o primeiro parâmetro é
 O segundo parâmetro é a função dentro do seu arquivo views que fará a análise dos dados enviados pelo ajax.
 O terceiro é o nome que podemos seguir como um atalho ao adicionarmos no template o caminho da url, como no exemplo abaixo:
 
-<pre><a href="{% url 'terceiroparametroaqui' %}">Link</a></pre>
-onde o terceiro parâmetro é o name adicionado no path no arquivo urls.
+<code>< a href="{% url 'terceiroparametroaqui' %}" >Link </ a></code>
+
+<strong>Onde o terceiro parâmetro é o name adicionado no path no arquivo urls.</strong>
